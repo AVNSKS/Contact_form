@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Form Selector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Choose Your Form 🌟</h1>
+    <p>Select the form type you want to access</p>
+  </header>
+
+  <nav>
+    <button onclick="redirectTo('course.html')">📘 Course Form</button>
+    <button onclick="redirectTo('event.html')">🎉 Event Form</button>
+    <button onclick="redirectTo('contact.html')">✉️ Contact Form</button>
+  </nav>
+
+  <script>
+    function redirectTo(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
