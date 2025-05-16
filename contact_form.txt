@@ -79,3 +79,7 @@ The JavaScript file implements the following functionalities:
 	•	Backend Integration: Connect to a server or database to store submissions persistently.
 	•	Data Display: Show submitted data on a confirmation page or admin panel.
 	•	Security Measures: Sanitize user inputs to prevent XSS attacks and other vulnerabilities.
+
+
+Git hub link:
+	https://github.com/AVNSKS/Contact_form
