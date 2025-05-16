@@ -1,0 +1,81 @@
+📘 Contact Form Website – Detailed Documentation
+
+🎯 Project Overview
+
+This project is a simple multi-page static website developed using HTML, CSS, and JavaScript. Its primary purpose is to allow users to fill out a contact form. Upon successful submission, the user’s information is stored in the browser’s local storage, and the user is redirected to a success page.
+
+Note: This project operates entirely on the client-side and does not involve any backend or server-side processing.
+
+📂 Project Structure
+
+The repository contains the following files:
+	•	index.html – The homepage with navigation links to other pages.
+	•	contact.html – Contains the contact form for user input.
+	•	course.html – Placeholder page for course information.
+	•	event.html – Placeholder page for event details.
+	•	success.html – Displays a success message after form submission.
+	•	style.css – Contains styles for all pages, including layout, colors, and spacing.
+	•	script.js – Handles form validation, data storage, and redirection logic.
+
+🧾 Page Descriptions
+
+1. Home Page (index.html)
+	•	Serves as the main landing page.
+	•	Provides navigation links to the Contact, Course, and Event pages.
+
+2. Contact Form Page (contact.html)
+	•	Features a form that collects:
+	•	Name
+	•	Email
+	•	Phone Number
+	•	Message
+	•	On submission:
+	•	Validates that all fields are filled.
+	•	Stores the data in the browser’s local storage.
+	•	Redirects the user to the success page.
+
+3. Success Page (success.html)
+	•	Displays a confirmation message indicating successful form submission.
+
+4. Course Page (course.html)
+	•	Placeholder for future course-related content.
+
+5. Event Page (event.html)
+	•	Placeholder for future event-related content.
+
+🎨 Styling (style.css)
+
+The CSS file defines the visual presentation of the website, including:
+	•	Layout and positioning of elements.
+	•	Color schemes and typography.
+	•	Responsive design considerations for various devices.
+
+⚙️ Functionality (script.js)
+
+The JavaScript file implements the following functionalities:
+	1.	Form Validation: Ensures all form fields are completed before submission.
+	2.	Data Storage: Saves user input into the browser’s local storage.
+	3.	Redirection: Navigates the user to the success page upon successful submission.
+
+🔁 Workflow Summary
+	1.	User accesses the homepage (index.html).
+	2.	Navigates to the contact form via the provided link.
+	3.	Fills out the contact form.
+	4.	Upon clicking “Submit”:
+	•	If all fields are filled:
+	•	Data is stored in local storage.
+	•	User is redirected to success.html.
+	•	If any field is empty:
+	•	An alert prompts the user to complete all fields.
+
+⚠️ Limitations
+	•	No Backend Integration: Data is not sent to a server or stored in a database.
+	•	Local Storage: Information is stored only in the user’s browser and is not persistent across different devices or browsers.
+	•	Input Validation: Does not validate the format of email addresses or phone numbers.
+	•	Security: Lacks measures to prevent malicious input (e.g., script injections).
+
+✅ Potential Improvements
+	•	Enhanced Validation: Implement regex checks for email and phone number formats.
+	•	Backend Integration: Connect to a server or database to store submissions persistently.
+	•	Data Display: Show submitted data on a confirmation page or admin panel.
+	•	Security Measures: Sanitize user inputs to prevent XSS attacks and other vulnerabilities.
